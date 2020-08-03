@@ -63,7 +63,7 @@
                 console.log(data)
                 if (error.code === -2) {
                 var dialogMessage = '有新的版本是否下载';
-                //调用升级提示框 点击确认会跳转对应商店升级
+                //调用升级提示框 点击确认会跳转对应商店升级             版本更新 一定要修改 min_native_interface 和 release  两个参数
                 chcp.requestApplicationUpdate(dialogMessage, null, null);
                 }
             }
